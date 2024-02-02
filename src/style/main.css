@@ -1,0 +1,204 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+@media screen and (min-width: 992px) {
+  .form{
+    width: 350px !important;
+
+  }
+}
+@media screen and (max-width: 575px) {
+  .button-regist{
+    margin-top: 15px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .button-regist {
+    margin : auto;
+  }
+  .main{
+
+    min-height: 50vh;
+  }
+}
+
+
+
+
+/* main */
+    .main{
+      background-image: url(../assets/images/main.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+.main-foto{
+  width: 50%;
+  float: right;
+  padding-left: 10px;
+}
+
+.judul-section{
+  font-weight: bold;
+  color: #0f95d3;
+  margin-top: 30px;
+}
+
+.regist-foto {
+  background: url('../assets/images/mainn.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.regist-foto p {
+  font-size: 22px;
+  color: white;
+  text-align: center; 
+}
+
+/* buku */
+.ukuran-buku{
+  width: 240px;
+  height: auto;
+}
+
+.judul-buku{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tombol-buku{
+  width: 135px;
+  height: 85px;
+}
+
+/* poster */
+.teks-poster{
+  margin-top: 10px;
+  color: black;
+}
+
+/* cerita */
+/* .card-image {
+  width: 328px;
+  height: auto;
+  margin: 0 auto;
+} */
+
+.card-cerita{
+  text-align: center;
+  align-items: center;
+  background-color: #EAF9FF !important;
+
+}
+
+/* karir */
+.karir{
+  font-size: 25px;
+  color: #0f95d3;
+}
+
+
+/* general */
+
+.jarak-section1{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.tombol {
+  text-decoration: none;
+  text-align: center;
+  color: #0f95d3;
+  border: 2px solid #0f95d3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  height: 65px;
+}
+.tombol-kerja {
+  text-decoration: none;
+  text-align: center;
+  color: #0f95d3;
+  border: 2px solid #0f95d3;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  height: 55px;
+}
+.tombol:hover {
+  color: white;
+  background-color: #0f95d3;
+}
+
+.bg-color {
+  background-color: #eaf9ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.judul {
+  background: url('../assets/images/mainn.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 175px;
+  padding-bottom: 175px;
+}
+
+.judul h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  background-color: #0f95d3;
+}
+
+.footer p {
+  margin-top: -35px;
+}
+
+.footer a {
+  color: #eaf9ff;
+}
+
+.btn-foot {
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.btn-foot:hover {
+  background-color: #0f95d3;
+}
+
+
+/* .text-center.align-items-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+} */
+
+/*
+
+.image{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 160px;
+}
+  
+   */
