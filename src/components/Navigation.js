@@ -20,15 +20,15 @@ const Navigation = () => {
                 <NavDropdown.Item onClick={() => navigate('/visi-misi')}>Visi & Misi</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Kerja Kami" id="basic-nav-dropdown" className="mx-2">
-                <NavDropdown.Item onClick={() => navigate('/kerja')}>Kerja Kami</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => navigate('/kerja-kami')}>Kerja Kami</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate('/kerja-sama')}>Kerja Sama</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Publikasi" id="basic-nav-dropdown" className="mx-2">
-                <NavDropdown.Item onClick={() => navigate('/laporan-tahunan')}>Laporan Tahunan</NavDropdown.Item>
-                <NavDropdown.Item onClick={() => navigate('/buku')}>Buku</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => navigate('/galeri')}>Galeri</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => navigate('/jurnal')}>Jurnal</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate('/poster')}>Poster</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Cerita & Event  " id="basic-nav-dropdown" className="mx-2">
+              <NavDropdown title="Cerita & Event" id="basic-nav-dropdown" className="mx-2">
                 <NavDropdown.Item onClick={() => navigate('/cerita')}>Cerita Dari Tapak</NavDropdown.Item>
               </NavDropdown>
             </Nav>

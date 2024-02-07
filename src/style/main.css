@@ -1,46 +1,16 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
-@media screen and (min-width: 992px) {
-  .form{
-    width: 350px !important;
-
-  }
-}
-@media screen and (max-width: 575px) {
-  .button-regist{
-    margin-top: 15px !important;
-  }
-}
-@media screen and (max-width: 767px) {
-  .button-regist {
-    margin : auto;
-  }
-  .main{
-
-    min-height: 50vh;
-  }
-}
-
-
-
 
 /* main */
-    .main{
-      background-image: url(../assets/images/main.jpg);
-      background-size: cover;
-      background-position: center;
-      min-height: 100vh;
-      width: 100%;
-    }
 
-.main-foto{
+.main-foto {
   width: 50%;
   float: right;
   padding-left: 10px;
 }
 
-.judul-section{
+.judul-section {
   font-weight: bold;
   color: #0f95d3;
   margin-top: 30px;
@@ -58,58 +28,119 @@
 .regist-foto p {
   font-size: 22px;
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 
-/* buku */
-.ukuran-buku{
+@media screen and (min-width: 992px) {
+  .form {
+    width: 350px !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .button-regist {
+    margin-top: 15px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .button-regist {
+    margin: auto;
+  }
+}
+/* jurnal */
+.ukuran-jurnal {
   width: 240px;
   height: auto;
 }
 
-.judul-buku{
+.judul-jurnal {
   font-size: 25px;
   font-weight: bold;
   margin-top: 10px;
 }
 
-.tombol-buku{
+.tombol-jurnal {
   width: 135px;
-  height: 85px;
+  height: 60px;
 }
 
 /* poster */
-.teks-poster{
+
+.teks-poster {
   margin-top: 10px;
   color: black;
 }
 
 /* cerita */
-/* .card-image {
-  width: 328px;
-  height: auto;
-  margin: 0 auto;
-} */
 
-.card-cerita{
+.card-cerita {
   text-align: center;
   align-items: center;
-  background-color: #EAF9FF !important;
-
+  background-color: #eaf9ff !important;
 }
 
 /* karir */
-.karir{
+.karir {
   font-size: 25px;
   color: #0f95d3;
 }
+/* kerjakami */
+.jarak-card {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.jarak-card3 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 
+@media screen and (max-width: 1180px) {
+  .jarak-card {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  .jarak-card3 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .jarak-card {
+    margin-top: 5px;
+    margin-bottom: 64px;
+  }
+  .jarak-card3 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .jarak-card {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .jarak-card3 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+/* galeri */
+.teks-galeri {
+  font-size: 14px;
+  color: black;
+}
+
+.img-galeri {
+  width: 350px;
+  height: 200px;
+  objectfit: cover;
+}
 
 /* general */
 
-.jarak-section1{
+.jarak-section1 {
   padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 .tombol {
@@ -182,23 +213,3 @@
 .btn-foot:hover {
   background-color: #0f95d3;
 }
-
-
-/* .text-center.align-items-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-} */
-
-/*
-
-.image{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 160px;
-}
-  
-   */

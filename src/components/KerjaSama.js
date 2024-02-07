@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import ceklis from '../assets/images/ceklis.png';
 
 const KerjaSama = () => {
+  useEffect(() => {
+    document.title = 'Kerja Sama';
+  });
   return (
     <div>
       <div className="judul">

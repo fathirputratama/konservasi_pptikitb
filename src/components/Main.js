@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Image, Button, Form } from 'react-bootstrap';
 import main from '../assets/images/main.jpg';
 import tentang from '../assets/images/tentang.jpeg';
@@ -6,6 +6,9 @@ import release1 from '../assets/images/release1.jpg';
 import release2 from '../assets/images/release2.jpg';
 
 const Main = () => {
+  useEffect(() => {
+    document.title = 'Konservasi Indonesia';
+  });
   return (
     <div>
       <Image src={main} alt="foto" fluid style={{ width: '100%', height: 'auto' }} />
@@ -68,7 +71,7 @@ const Main = () => {
               <a href="#" className="tombol">
                 Selengkapnya
               </a>
-              <iframe style={{paddingTop: '25px'}} width="100%" height="500" src="https://maphub.net/embed_h/l80jFWgYaSPBisdj?panel=1&panel_closed=1" frameborder="0"></iframe>
+              <iframe style={{ paddingTop: '25px' }} width="100%" height="500" src="https://maphub.net/embed_h/l80jFWgYaSPBisdj?panel=1&panel_closed=1" frameborder="0"></iframe>
             </div>
           </Col>
         </Row>
@@ -95,8 +98,8 @@ const Main = () => {
               </a>
             </div>
           </Col>
-          </Row>
-          <Row className='py-3'>
+        </Row>
+        <Row className="py-3">
           <Col md={4}>
             <Image src={release2} alt="" fluid />
           </Col>
@@ -126,8 +129,8 @@ const Main = () => {
           </Row>
           <Form>
             <Row>
-              <Col sm={6} md={7}  style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                <Form.Control className='form' type="text" placeholder="Masukkan alamat email" />
+              <Col sm={6} md={7} style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                <Form.Control className="form" type="text" placeholder="Masukkan alamat email" />
               </Col>
               <Col sm={6} md={5}>
                 <Button className="button-regist" style={{ width: '200px', display: 'block' }}>
@@ -138,7 +141,6 @@ const Main = () => {
           </Form>
         </Container>
       </div>
-      
     </div>
   );
 };

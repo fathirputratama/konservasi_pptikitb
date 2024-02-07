@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import cerita1 from '../assets/images/cerita1.jpg';
 import cerita2 from '../assets/images/cerita2.jpg';
 import cerita3 from '../assets/images/cerita3.jpg';
 
 const Cerita = () => {
+  useEffect(() => {
+    document.title = 'Cerita';
+  });
   return (
     <div>
       <div className="judul">
         <h1 className=" animate__animated animate__fadeInUp">CERITA & EVENT</h1>
       </div>
       <Container>
-      <Row className='jarak-section1'>
+        <Row className="jarak-section1">
           <Col>
             <div>
               <h5>CERITA & EVENT</h5>
