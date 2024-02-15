@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import galeri1 from '../assets/images/galeri1.jpeg';
 import galeri2 from '../assets/images/galeri2.jpeg';
 import galeri3 from '../assets/images/galeri3.jpeg';

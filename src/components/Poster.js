@@ -2,8 +2,12 @@ import React, { useEffect } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import poster1 from '../assets/images/biodiversity.jpeg';
 import poster2 from '../assets/images/buildingofthefuture.jpeg';
-import poster3 from '../assets/images/defencesecurity.jpeg';
-import poster4 from '../assets/images/smarttransportation.jpeg';
+import poster3 from '../assets/images/culturetourism.jpeg';
+import poster4 from '../assets/images/defencesecurity.jpeg';
+import poster5 from '../assets/images/egoverment.jpeg';
+import poster6 from '../assets/images/monitoringjalan.jpeg';
+import poster7 from '../assets/images/sistemtimbangangas.jpeg';
+import poster8 from '../assets/images/smarttransportation.jpeg';
 
 const Poster = () => {
   useEffect(() => {
@@ -20,7 +24,7 @@ const Poster = () => {
             </div>
           </Col>
         </Row>
-        <Row className="row-poster">
+        <Row>
           <Col md={6} lg={3}>
             <Image src={poster1} style={{ width: '220px' }} />
             <p className="teks-poster">Biodiversity</p>
@@ -31,10 +35,28 @@ const Poster = () => {
           </Col>
           <Col md={6} lg={3}>
             <Image src={poster3} style={{ width: '220px' }} />
-            <p className="teks-poster">Defence Security</p>
+            <p className="teks-poster">Culture & Tourism</p>
           </Col>
           <Col md={6} lg={3}>
             <Image src={poster4} style={{ width: '220px' }} />
+            <p className="teks-poster">Defence Security</p>
+          </Col>
+        </Row>
+        <Row className="row-poster">
+          <Col md={6} lg={3}>
+            <Image src={poster5} style={{ width: '220px' }} />
+            <p className="teks-poster">E-Goverment</p>
+          </Col>
+          <Col md={6} lg={3}>
+            <Image src={poster6} style={{ width: '220px' }} />
+            <p className="teks-poster">Monitoring Jalan</p>
+          </Col>
+          <Col md={6} lg={3}>
+            <Image src={poster7} style={{ width: '220px' }} />
+            <p className="teks-poster">Sistem Timbangan Gas</p>
+          </Col>
+          <Col md={6} lg={3}>
+            <Image src={poster8} style={{ width: '220px' }} />
             <p className="teks-poster">Smart Transportation</p>
           </Col>
         </Row>

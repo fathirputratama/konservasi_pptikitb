@@ -29,7 +29,6 @@ const Main = () => {
                 masyarakat dan alam Indonesia.
               </p>
             </div>
-
             <a href="#" className="tombol" style={{ width: '285px', height: '70px' }}>
               Selengkapnya Tentang Kami
             </a>

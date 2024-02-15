@@ -27,7 +27,9 @@ const Jurnal = () => {
             <p>Lorem ipsum dolor sit amet consectetur.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus?</p>
             <p className="fw-bold">Lorem ipsum dolor sit.</p>
-            <Button className="tombol-jurnal">Baca</Button>
+            <a href="#">
+              <Button className="tombol-jurnal">Baca</Button>
+            </a>
           </Col>
           <Col md={4}>
             <Image src={jurnal} alt="Gambar 1" className="ukuran-jurnal" />
@@ -35,7 +37,9 @@ const Jurnal = () => {
             <p>Lorem ipsum dolor sit amet consectetur.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus?</p>
             <p className="fw-bold">Lorem ipsum dolor sit.</p>
-            <Button className="tombol-jurnal">Baca</Button>
+            <a href="#">
+              <Button className="tombol-jurnal">Baca</Button>
+            </a>
           </Col>
           <Col md={4}>
             <Image src={jurnal} alt="Gambar 1" className="ukuran-jurnal" />
@@ -43,7 +47,9 @@ const Jurnal = () => {
             <p>Lorem ipsum dolor sit amet consectetur.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, minus?</p>
             <p className="fw-bold">Lorem ipsum dolor sit.</p>
-            <Button className="tombol-jurnal">Baca</Button>
+            <a href="#">
+              <Button className="tombol-jurnal">Baca</Button>
+            </a>
           </Col>
         </Row>
       </Container>
