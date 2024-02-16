@@ -10,7 +10,7 @@ const Navigation = () => {
     <div className="sticky-top navigation">
       <Navbar expand="lg" className="navigation" variant="light" style={{ backgroundColor: 'white' }}>
         <Container>
-          <Navbar.Brand onClick={() => navigate('/')} className="fw-bold fs-4">
+          <Navbar.Brand onClick={() => navigate('/')} className="fw-bold fs-4" style={{ cursor: 'pointer' }}>
             <img src={logo} width="85" alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -81,11 +81,21 @@
   color: black;
 }
 
+@media screen and (max-width: 768px) {
+  .poster-img {
+    text-align: center;
+    align-items: center;
+  }
+}
+
 /* cerita */
 
 .card-cerita {
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   align-items: center;
+  height: 100% !important;
   background-color: #eaf9ff !important;
 }
 

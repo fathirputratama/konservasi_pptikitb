@@ -25,37 +25,37 @@ const Poster = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={6} lg={3}>
-            <Image src={poster1} style={{ width: '220px' }} />
+          <Col md={6} lg={3}className="poster-img"  >
+            <Image src={poster1}  style={{ width: '220px' }} />
             <p className="teks-poster">Biodiversity</p>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster2} style={{ width: '220px' }} />
             <p className="teks-poster">Building Of The Future</p>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster3} style={{ width: '220px' }} />
             <p className="teks-poster">Culture & Tourism</p>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster4} style={{ width: '220px' }} />
             <p className="teks-poster">Defence Security</p>
           </Col>
         </Row>
         <Row className="row-poster">
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster5} style={{ width: '220px' }} />
             <p className="teks-poster">E-Goverment</p>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster6} style={{ width: '220px' }} />
             <p className="teks-poster">Monitoring Jalan</p>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster7} style={{ width: '220px' }} />
             <p className="teks-poster">Sistem Timbangan Gas</p>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3}className="poster-img"> 
             <Image src={poster8} style={{ width: '220px' }} />
             <p className="teks-poster">Smart Transportation</p>
           </Col>

@@ -8,6 +8,28 @@ const Cerita = () => {
   useEffect(() => {
     document.title = 'Cerita';
   });
+
+  const data = [
+    {
+      id: 1,
+      img: cerita1,
+      title: 'MENGINTIP UPAYA KONSERVASI ALAM KOMUNITAS PATIALA',
+      publisher: 'Oleh Ary Pratiwi',
+    },
+    {
+      id: 2,
+      img: cerita2,
+      title: 'PENJAGA HUTAN DARI SORONG SELATAN',
+      publisher: 'Oleh Nikka Gunadharma, I Wayan Adi Mahardika, Jekson Bisai dan Raimer Helweldery',
+    },
+    {
+      id: 3,
+      img: cerita3,
+      title: '"BINTANG PELINDUNG" HIU BELIMBING DI RAJA AMPAT',
+      publisher: 'Oleh Nikka Gunadharma',
+    },
+  ];
+
   return (
     <div>
       <div className="judul">
@@ -22,47 +44,21 @@ const Cerita = () => {
             </div>
           </Col>
         </Row>
-        <Row className="mb-5">
-          <Col md={4}>
-            <Card className="card-cerita">
-              <Card.Img src={cerita1} className="card-image" />
-              <Card.Body>
-                <Card.Title>MENGINTIP UPAYA KONSERVASI ALAM KOMUNITAS PATIALA</Card.Title>
-                <p>Oleh Ary Pratiwi</p>
-                <br />
-                <br />
-                <a href="#" className="tombol">
-                  Baca Lebih
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card className="card-cerita">
-              <Card.Img src={cerita2} className="card-image" />
-              <Card.Body>
-                <Card.Title>PENJAGA HUTAN DARI SORONG SELATAN</Card.Title>
-                <p>oleh Nikka Gunadharma, I Wayan Adi Mahardika, Jekson Bisai dan Raimer Helweldery</p>
-                <a href="#" className="tombol">
-                  Baca Lebih
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card className="card-cerita">
-              <Card.Img src={cerita3} className="card-image" />
-              <Card.Body>
-                <Card.Title>"BINTANG PELINDUNG" HIU BELIMBING DI RAJA AMPAT</Card.Title>
-                <p>Oleh Nikka Gunadharma</p>
-                <br />
-                <br />
-                <a href="#" className="tombol">
-                  Baca Lebih
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
+        <Row className="mb-4">
+          {data.map((item) => (
+            <Col md={4} className="py-2">
+              <Card className="card-cerita">
+                <Card.Img src={item.img} className="card-image" />
+                <Card.Body>
+                  <Card.Title style={{ minHeight: '50px' }}>{item.title?.length <= 36 ? item.title : [item.title?.slice(0, 36), '...'].join('')}</Card.Title>
+                  <Card.Text style={{ minHeight: '65px', fontSize: '14px' }}>{item.publisher}</Card.Text>
+                  <a href="#" className="tombol">
+                    Baca Lebih
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
         </Row>
       </Container>
     </div>

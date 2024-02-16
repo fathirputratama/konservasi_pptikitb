@@ -26,7 +26,7 @@ const Galeri = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md={4}>
             <a href="https://pptik.itb.ac.id/?p=4771" target="_blank" style={{ textDecoration: 'none' }}>
               <Card className="border-light">
                 <Card.Img className="img-galeri" variant="top" src={galeri1} />
@@ -36,7 +36,7 @@ const Galeri = () => {
               </Card>
             </a>
           </Col>
-          <Col>
+          <Col md={4}>
             <a href="https://pptik.itb.ac.id/?p=4807" target="_blank" style={{ textDecoration: 'none' }}>
               <Card className="border-light">
                 <Card.Img className="img-galeri" variant="top" src={galeri2} />
@@ -46,7 +46,7 @@ const Galeri = () => {
               </Card>
             </a>
           </Col>
-          <Col>
+          <Col md={4}>
             <a href="https://pptik.itb.ac.id/?p=4783" target="_blank" style={{ textDecoration: 'none' }}>
               <Card className="border-light">
                 <Card.Img className="img-galeri" variant="top" src={galeri3} />
@@ -58,7 +58,7 @@ const Galeri = () => {
           </Col>
         </Row>
         <Row className="pt-3">
-          <Col>
+          <Col md={4}>
             <a href="https://pptik.itb.ac.id/?p=4776" target="_blank" style={{ textDecoration: 'none' }}>
               <Card className="border-light">
                 <Card.Img className="img-galeri" variant="top" src={galeri4} />
@@ -68,7 +68,7 @@ const Galeri = () => {
               </Card>
             </a>
           </Col>
-          <Col>
+          <Col md={4}>
             <a href="https://pptik.itb.ac.id/?p=4789" target="_blank" style={{ textDecoration: 'none' }}>
               <Card className="border-light">
                 <Card.Img className="img-galeri" variant="top" src={galeri5} />
@@ -78,7 +78,7 @@ const Galeri = () => {
               </Card>
             </a>
           </Col>
-          <Col>
+          <Col md={4}>
             <a href="https://pptik.itb.ac.id/?p=4797" target="_blank" style={{ textDecoration: 'none' }}>
               <Card className="border-light">
                 <Card.Img className="img-galeri" variant="top" src={galeri6} />
